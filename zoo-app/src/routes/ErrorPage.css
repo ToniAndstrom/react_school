@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.error{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.error_title{
+    font-size: 5rem;
+}
+.first_part{
+    background-color: mediumaquamarine;
+    padding:3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+    
+    border: solid 10px aquamarine;
+    color:black
+}
+.error_text{
+    background-color: mediumaquamarine;
+    padding:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+    color:black;
+    margin-top: 5rem;
+    border: solid 10px aquamarine;
+}

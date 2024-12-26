@@ -1,0 +1,12 @@
+.box{
+    background: salmon;
+    padding: 20px;
+    margin: 3rem;
+    color:white;
+    border-radius: 10px;
+    border: solid black 5px;
+    box-shadow: 20px -10px 10px gray
+}
+.box  h2 , .box p{
+    color:black
+}

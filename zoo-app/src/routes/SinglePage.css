@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.single_name{
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    text-transform: capitalize;
+    color:aquamarine
+}
+.single_image{
+    border-radius: 10px;
+}

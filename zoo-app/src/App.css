@@ -1,0 +1,42 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  overscroll-behavior: none;
+  
+}
+header{
+  color:white;
+  margin-bottom:3rem;
+}
+main{
+ background-color:teal;
+ color:white;
+
+
+}
+button{
+  margin-top:2rem;
+  
+  width: 10rem;
+  height: 2rem;
+  color:black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+}
+
+#single{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#single a{
+  color:black;
+  text-decoration: none;
+}
+
+

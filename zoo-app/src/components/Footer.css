@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+footer{
+margin-top: 2rem;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url("jungle.jpg");
+background-size: cover;
+color:white;
+height: 5rem;
+}

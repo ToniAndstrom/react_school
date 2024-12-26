@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.landing_page{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 340px 340px;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 2px black;
+    
+   
+}
+.item1 {
+    background-image: url("sloth.jpg");
+    background-size: cover;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    background-position: center center;
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    font-size: 5rem;
+    
+    
+   
+}
+.item2 {
+    background-image: url("parrot.jpg");
+    background-size: cover;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1 ;
+    background-position: center center;
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    font-size: 5rem;
+    
+    
+}
+.item3 {
+    background-image: url("insect.jpg");
+    background-size: cover;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1 ;
+    background-position: center center;
+    text-decoration: none;
+     text-align: center;
+    color:white;
+    font-size: 5rem;
+    
+}
+.item4 {
+    background-image: url("fish.jpg");
+    background-size: cover;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1 ;
+    background-position: center center;
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    font-size: 5rem;
+    
+}
+.landing_page p{
+    margin-top:10rem;
+}
+.landing_page p:hover{
+color:aquamarine;
+}

@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.search input{
+    height: 2rem;
+    width: 15rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+.category_name{
+    font-size: 5rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    color:aquamarine;
+    text-shadow: 5px 2px black;
+}

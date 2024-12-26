@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url("jungle.jpg");
+    background-size: cover;
+   width: 90rem;
+   height: 12rem;
+   font-size: 2rem;
+   color:white;
+   display: flex;
+   align-items: center;
+justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 2rem;
+}
+header a:hover{
+    color:aquamarine;
+    border-bottom: 3px solid aquamarine
+}
+.logo{
+    margin-left: 1rem;
+}
+

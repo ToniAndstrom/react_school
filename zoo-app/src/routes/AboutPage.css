@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.about_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: mediumaquamarine;
+    border: solid 10px aquamarine;
+    border-radius: 50px;
+    max-width: 50rem;
+}
+.about_text{
+    font-size: 2rem;
+    margin:2rem;
+    color:black
+}
